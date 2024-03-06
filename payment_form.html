@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  <link rel="stylesheet" href="./PAYMENT_FORM.CSS">
+  </head>
+  <body>
+    <form action="" >
+      <h1>Payment Form</h1>
+      <h2>Contact Information</h2>
+      <p>Name: <input type="text" name="name" id="name" placeholder="enter your name " required /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="Gender" id="Gender" required /> Male
+        <input type="radio" name="Gender" id="Gender" required /> Female
+      </fieldset>
+       <p>   About   <textarea name="" id="" cols="30" rows="10" placeholder="write about in 5 linesd"></textarea></p>
+
+      <p>Email: <input type="email" name="email" id="email" required placeholder="asad@gmail.com"/></p>
+      <p>
+        Pincode: <input type="password" name="Pincode" id="Pincode" required placeholder=" paasword" />
+      </p>
+      <select name="" id="">
+        Card type
+        <option value="Card  type">Select card type</option>
+        <option value="Card  type">visa</option>
+        <option value="Card  type">bank</option>
+        <option value="Card  type">atm</option>
+      </select>
+      <p>
+        Cardnumber:
+        <input type="number" name="Cardnumber" id="Cardnumber" required placeholder="32152-22332342-344" />
+      </p>
+      <p>
+        Expriation date:
+        <input
+          type="date"
+          name="Expriation date"
+          id="Expriation date"
+          required
+        />
+      </p>
+      <p>CVV: <input type="number" name="CVV" id="CVV" required placeholder="334" /></p>
+      <button type="submit">Paynow</button>
+    <!--<button type="reset">reset</button>-->
+    </form>
+  </body>
+</html>
